@@ -17,6 +17,14 @@
     font-size: 20px;
     color: #FFFFFF;
     padding: 18px 35px;
+    border: none;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 /*header and navigation styles*/
@@ -24,6 +32,10 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 230px 50px 226px;
+}
+
+nav li a {
+    text-decoration: none;
 }
 
 nav li {
@@ -62,9 +74,59 @@ nav ul {
 }
 
 .banner-description {
-    font-weight: 400;
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
 
+/* main styles  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About me styles */
+
+.about {
+    margin-top: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 157px 130px 156px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* about info container styles */
+
+.about-info-container {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+
+}
+
+.about-info {}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+
+}
